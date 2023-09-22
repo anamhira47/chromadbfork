@@ -52,7 +52,7 @@ try:
 
     IN_COLAB = True
 except ImportError:
-    IN_COLAB = False
+    IN_COLAB = True
 
 if sqlite3.sqlite_version_info < (3, 35, 0):
     if IN_COLAB:
